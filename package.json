@@ -1,0 +1,33 @@
+{
+    "name": "mi-extension",
+    "displayName": "mi-extension",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Extension Codigo",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Extension Codigo-color-theme.json"
+            }
+        ]
+    }, 
+    "icon": "icons/icono-tema.png",
+    "author": {
+        "name": "Hugo Ivo Do Vale",
+        "email": "dovalehugo@gmail.com"
+
+    },
+    "repository": {
+        "url": "https://github.com/dovalehugo/extension-codigo-vs.git",
+        "type": "git"
+    },
+    "publisher": "codigo-tecsup"
+
+}
